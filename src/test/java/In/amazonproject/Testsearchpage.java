@@ -35,7 +35,11 @@ public class Testsearchpage {
 		Thread.sleep(1500);
 		
 		
-		driver.findElement(By.id("wishlistButtonStack")).click();
+		//driver.findElement(By.id("wishlistButtonStack")).click();
+		 driver.findElement(By.xpath("/*[@id='wishListMainButton']/span")).click();
+		
+		
+
 		
 		driver.quit();
 		
