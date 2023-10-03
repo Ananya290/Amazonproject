@@ -1,0 +1,27 @@
+<project> 
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>end2</groupId>
+  <artifactId>end2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  
+  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.11.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.4.1</version>
+</dependency>
+  	<dependency>
+  		<groupId>seleniumdemo1</groupId>
+  		<artifactId>seleniumdemo1</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+  
+</project>
